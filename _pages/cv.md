@@ -10,3 +10,10 @@ description: This is a description of the page. You can modify it in '_pages/cv.
 toc:
   sidebar: left
 ---
+
+<style>
+  /* al-folio-cv's table.table-cv td { padding: 1px } overrides the pr-2/pl-2
+     utility classes on these same cells; restore the horizontal gap. */
+  table.table-cv td.pr-2 { padding-right: 0.5rem; }
+  table.table-cv td.pl-2 { padding-left: 0.5rem; }
+</style>

@@ -11,30 +11,25 @@
 # string per entry.
 
 cv:
-  name: Amanda A. Kepley, Ph.D.
+  name: Amanda A. Kepley Ph.D.
   email: akepley@nrao.edu
   website: https://www.kepley.us
-  address:
-    street: National Radio Astronomy Observatory, 520 Edgemont Road
-    city: Charlottesville
-    region: VA
-    postalCode: 22903-2475
-    countryCode: US
+  location: National Radio Astronomy Observatory, 520 Edgemont Road, Charlottesville, VA 22903-2475
   sections:
     Education:
-    - studyType: Ph.D.
+    - degree: Ph.D.
       area: Astronomy
       institution: University of Wisconsin–Madison
       date: '2008'
       highlights:
       - December 2008
-    - studyType: M.S.
+    - degree: M.S.
       area: Astronomy
       institution: University of Wisconsin–Madison
       date: '2004'
       highlights:
       - August 2004
-    - studyType: B.S.
+    - degree: B.S.
       area: Astronomy
       institution: Case Western Reserve University
       date: '2002'
