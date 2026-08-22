@@ -243,7 +243,14 @@ table.table-cv td.pl-2 {
 // ({property}-{breakpoint}-{value}) - this site's Tailwind build uses the
 // md:mt-0 prefix form instead, so mt-md-0 was never a real class and never
 // cancels the 8px margin, pushing every title/degree below its date badge.
-// mt-2 itself compiles with `!important` in tailwind.css, so this needs it too.
-.cv .row > .col-xs-10 {
-  margin-top: 0 !important;
+//
+// mt-2 compiles inside `@layer utilities` with `!important`. Per the CSS
+// cascade layers spec, !important priority is reversed for layers: an
+// unlayered !important rule loses to ANY layered !important rule regardless
+// of specificity. So this has to join the same layer to be decided by
+// specificity again, where .cv .row > .col-xs-10 outranks .mt-2.
+@layer utilities {
+  .cv .row > .col-xs-10 {
+    margin-top: 0 !important;
+  }
 }
