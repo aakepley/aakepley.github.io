@@ -243,6 +243,7 @@ table.table-cv td.pl-2 {
 // ({property}-{breakpoint}-{value}) - this site's Tailwind build uses the
 // md:mt-0 prefix form instead, so mt-md-0 was never a real class and never
 // cancels the 8px margin, pushing every title/degree below its date badge.
+// mt-2 itself compiles with `!important` in tailwind.css, so this needs it too.
 .cv .row > .col-xs-10 {
-  margin-top: 0;
+  margin-top: 0 !important;
 }
