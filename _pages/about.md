@@ -10,6 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Room 350</p>
+    <br>
     <p>520 Edgemont Road</p>
     <p>Charlottesville, VA 22903</p>
 
