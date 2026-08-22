@@ -251,6 +251,9 @@ exclude:
   - gems/
   - migrations/
   - vendor
+  - blog
+  - teaching
+  - people
 keep_files:
   - CNAME
   - .nojekyll
