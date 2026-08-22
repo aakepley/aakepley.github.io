@@ -16,4 +16,10 @@ toc:
      utility classes on these same cells; restore the horizontal gap. */
   table.table-cv td.pr-2 { padding-right: 0.5rem; }
   table.table-cv td.pl-2 { padding-left: 0.5rem; }
+
+  /* al-folio-cv's education/experience entries use ul.list-group, but no
+     loaded stylesheet sets list-style:none on it, so the browser default
+     bullet shows next to each date badge. Scoped to .cv so it can't affect
+     any other page's list-group usage. */
+  .cv ul.list-group { list-style: none; }
 </style>
