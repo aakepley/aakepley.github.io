@@ -209,3 +209,40 @@ html[data-theme-setting="light"] {
 #light-toggle:hover .fa-half-sun-moon::after {
   color: var(--global-theme-color);
 }
+
+/*******************************************************************************
+ * CV page fixes (al_folio_cv gem)
+ *
+ * layout: cv never renders {{ content }} (see al_folio_core's
+ * _layouts/cv.liquid), so a <style> block placed in _pages/cv.md's body is
+ * silently discarded. This file is a real, always-compiled stylesheet, so
+ * CV-specific fixes live here instead, scoped with .cv so they can't leak
+ * onto other pages.
+ ******************************************************************************/
+
+// al-folio-cv.css's `table.table-cv td, table.table-cv th { padding: 1px }`
+// outranks the template's own .pr-2/.pl-2 utility classes on those same
+// cells (higher specificity), collapsing the intended horizontal gap.
+table.table-cv td.pr-2 {
+  padding-right: 0.5rem;
+}
+table.table-cv td.pl-2 {
+  padding-left: 0.5rem;
+}
+
+// education.liquid/experience.liquid render entries as
+// <ul class="list-group list-group-flush">, but nothing loaded sets
+// list-style on it, so the browser default bullet shows next to each date
+// badge.
+.cv ul.list-group {
+  list-style: none;
+}
+
+// The title/degree column carries `mt-2 mt-md-0`. mt-2 is a real generated
+// utility, but mt-md-0 is Bootstrap-style responsive naming
+// ({property}-{breakpoint}-{value}) - this site's Tailwind build uses the
+// md:mt-0 prefix form instead, so mt-md-0 was never a real class and never
+// cancels the 8px margin, pushing every title/degree below its date badge.
+.cv .row > .col-xs-10 {
+  margin-top: 0;
+}
