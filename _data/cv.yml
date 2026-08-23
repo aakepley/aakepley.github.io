@@ -22,13 +22,14 @@ cv:
       institution: University of Wisconsin–Madison
       date: '2008'
       highlights:
-      - December 2008
+      - Thesis: Magnetic fields in irregular galaxies
+      - Advisor: Dr. Eric M. Wilcots
     - degree: M.S.
       area: Astronomy
       institution: University of Wisconsin–Madison
       date: '2004'
       highlights:
-      - August 2004
+      - Advisor: Dr. Eric M. Wilcots
     - degree: B.S.
       area: Astronomy
       institution: Case Western Reserve University
@@ -36,16 +37,24 @@ cv:
       highlights:
       - Summa cum laude
     Experience:
+    - position: Project Director, Radio Astronomy Data Processing System for ALMA (RADPS-ALMA)
+      company: National Radio Astronomy Observatory
+      start_date: 2024-08
+      end_date: present
+    - position: NA Deputy ALMA Integrated Computing Team (ICT) Lead
+      company: National Radio Astronomy Observatory
+      start_date: 2024-08
+      end_date: present
     - position: Scientist
-      company: National Radio Astronomy Observatory, North American ALMA Science Center (NAASC)
+      company: National Radio Astronomy Observatory
       start_date: 2024-02
       end_date: present
     - position: Associate Scientist
-      company: National Radio Astronomy Observatory, North American ALMA Science Center (NAASC)
+      company: National Radio Astronomy Observatory
       start_date: 2021-03
       end_date: 2024-02
     - position: Assistant Scientist
-      company: National Radio Astronomy Observatory, North American ALMA Science Center (NAASC)
+      company: National Radio Astronomy Observatory
       start_date: 2017-03
       end_date: 2021-03
     - position: Postdoctoral Fellow
@@ -80,16 +89,19 @@ cv:
     - bullet: '**Wisconsin Space Grant Consortium Graduate Fellowship** — 2003, 2007'
     - bullet: '**Karl Guthe Jansky and Alice Knapp Jansky Award** — University of Wisconsin, 2006'
     Management and Leadership Experience:
-    - bullet: '**Deputy Pipeline Sub-System Scientist for ALMA** — 1/2023 – present: Assist the Pipeline Sub-system Scientist with the management of the ALMA Pipeline Working Group. Serve as an alternate point of contact when the Pipeline Sub-system Scientist is unavailable. Write requirements for future functionality. Assist with validation.'
-    - bullet: '**CASA Sub-System Scientist for ALMA** — 11/2019 – present: Gather and set ALMA requirements for CASA. Work with CASA to prioritize development. Oversee validation testing including development of automated tests for specific ALMA use cases.'
+    - bullet: '**Project Director for the Radio Astronomy Data Processing System for ALMA (RADPS-ALMA)** — 8/2024 – present: Leading a team of scientists and engineers to design and implement a new data processing system for ALMA. Coordinate with ALMA stakeholders to ensure that the system meets scientific requirements. '
+    - bullet: '**NA Deputy ALMA Integrated Computing Team (ICT) Lead** — 8/2024 – present: Assist the NA ICT Lead with the management of the NA ICT. Serve as an alternate point of contact when the NA ICT Lead is unavailable.'
+    - bullet: '**Deputy Pipeline Sub-System Scientist for ALMA** — 1/2023 – 8/2024: Assist the Pipeline Sub-system Scientist with the management of the ALMA Pipeline Working Group. Serve as an alternate point of contact when the Pipeline Sub-system Scientist is unavailable. Write requirements for future functionality. Assist with validation.'
+    - bullet: '**CASA Sub-System Scientist for ALMA** — 11/2019 – 8/2024: Gather and set ALMA requirements for CASA. Work with CASA to prioritize development. Oversee validation testing including development of automated tests for specific ALMA use cases.'
+    - bullet: '**Technical Lead for ALMA WSU Data Processing Transition Plan Working Group** - 3/2024 - 8/2024'
     - bullet: '**Technical Lead for the ALMA WSU Data Processing Working Group** — 10/2023 – 1/2024'
     - bullet: '**Member of NRAO Observatory Leadership Cohort II** — 10/2020 – 6/2021'
     - bullet: '**Completed 2-day, in-person training on Crucial Conversations** — 1/2020'
     - bullet: '**Principal Investigator for DEGAS, a large project on the Green Bank Telescope** — 2/2017 – present: Coordinate proposal writing. Develop observing procedures and manage on-call rotation. Generate requirements for data reduction pipeline. Coordinate work on data release and associated papers.'
     - bullet: '**Member of ngVLA operations working group** — 2017 – 2022: Contribute to ngVLA operations plan. Present operations plan at conferences as requested.'
     - bullet: '**Creator and maintainer of NA ARC ALMA imaging script template** — 10/2014 – 2021: Developed script to standardize manual imaging and guide data analysts in making appropriate choices.'
-    Scientific Software Experience:
-    - bullet: '**ALMA Wideband Sensitivity Upgrade (WSU) Data Processing** — 10/2022 – present'
+    Scientific Software Experience: 
+    - bullet: '**Data Processing Transition Working Group** - ALMA WSU, 3/2024 - 8/2024: Member (technical lead) of working group tasked with developing a plan to transition from the existing ALMA data processing system to a new system designed to handle WSU data.
     - bullet: '**Data Processing Working Group** — ALMA WSU, 10/2023 – 1/2024: Member (technical lead) of working group tasked with identifying requirements for an ALMA next generation Data Processing System (ngDPS) and a concept and end-to-end requirements for processing WSU data.'
     - bullet: '**Data Rate Ramp Up Working Group** — ALMA WSU, 10/2023 – 1/2024: Member of working group tasked with identifying the minimum scientific capabilities that will be offered at various stages of WSU deployment.'
     - bullet: '**Data Processing and Data Accessibility Working Group** — ALMA WSU, 10/2022 – 7/2023: Member of working group tasked with assessing the impact of the ALMA Wideband Sensitivity Upgrade (WSU) on ALMA operations and developing recommendations for WSU data processing.'
@@ -97,7 +109,7 @@ cv:
     - bullet: '**Data Reduction Pipeline for DEGAS (GBT Large Project)** — 2017 – present: Generate requirements for data reduction pipeline. Test pipeline code in production. Make bug fixes as necessary.'
     - bullet: '**Lead for "Auto-multithresh" feature** — 2016 – 2020: Developed and prototyped an algorithm to automatically mask emission while cleaning. Worked with developer to have it implemented in CASA. Incorporated algorithm into the ALMA imaging pipeline. Led validation testing. Organized future feature development and bug fixes and did associated testing. Wrote CASA documentation and paper describing algorithm. Supervised writing of an informal guide describing how to use the feature.'
     - bullet: '**SRDP Requirements Committee** — 2017 – 2019: Provide feedback to the SRDP projects on current and future requirements.'
-    - bullet: '**CASA validation** — 2012 – present'
+    - bullet: '**CASA validation** — 2012 – 2024'
     Instrumentation Experience:
     - bullet: '**Panelist for LASSI Preliminary and Final Design Review** — 2019 – 2020: Evaluated current status of an NSF-funded project to increase the number of high frequency observing hours available for the Green Bank Telescope.'
     - bullet: '**Developed observing procedures for Argus (16 pixel focal plane array)** — 2017: Developed observing procedures for Argus, which was a newly commissioned instrument in shared risk mode.'
@@ -110,8 +122,8 @@ cv:
     - bullet: '**Led Tutorials for the Synthesis Imaging Summer School** — 5/2018'
     - bullet: '**Provided training for ALMA Ambassadors** — 2/2018 – 2/2022'
     - bullet: '**Presenter for ALMA Community Days/NRAO Live!** — 3/2015 – 3/2016'
-    - bullet: '**Support F2F visits** — 9/2014 – present'
-    - bullet: '**ALMA Contact Scientist** — 9/2014 – present'
+    - bullet: '**Support F2F visits** — 9/2014 – 2024'
+    - bullet: '**ALMA Contact Scientist** — 9/2014 – 2024'
     - bullet: '**Lecturer and Project Team Leader for Single Dish Summer School** — July 2013, 2015: Designed a small-group, hands-on project (July 2013); Co-lectured on combining single-dish and interferometer data (2013, 2015)'
     - bullet: '**Support Scientist for the Green Bank Telescope** — 9/2012 – 8/2014'
     - bullet: '**Wrote OPT Quickstart Guide for the Very Large Array** — 2/2012 – 5/2012'
