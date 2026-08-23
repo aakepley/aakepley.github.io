@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:  National Radio Astronomy Observatory
+subtitle:  National Radio Astronomy Observatory - Project Director, RADPS-ALMA
 
 profile:
   align: right
@@ -30,4 +30,3 @@ latest_posts:
 
 I like radio telescopes.
 
-Project Director, RADPS-ALMA.
