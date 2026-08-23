@@ -1,5 +1,12 @@
 name: Deploy site
 
+# Note: render-cv.yml's own auto-commit ("chore: render the latest CV") is
+# pushed using the default GITHUB_TOKEN, which GitHub deliberately excludes
+# from triggering other workflows (anti-recursion protection). So a CV data
+# change deploys the *website* text immediately, but the regenerated PDF
+# binary only goes live on the *next* push that matches these path filters -
+# worth a manual re-trigger (workflow_dispatch, or any small follow-up push)
+# if you need the PDF live sooner.
 on:
   push:
     branches:
